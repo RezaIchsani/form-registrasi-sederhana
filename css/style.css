@@ -1,0 +1,19 @@
+/* body {
+  min-height: 1000px;
+} */
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e2edff;
+}
+
+.formRegistrasi {
+  padding-top: 4rem;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+footer p {
+  padding: 1rem;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- MyStyle CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Registrasi</title>
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigasi -->
+
+    <!-- <section class="jumbotron text-center">
+      <img src="img/reza-ichsani.png" alt="Registrasi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Relawan Kemandirian</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    </section> -->
+
+    <!-- Form Registrasi -->
+    <section id="formRegistrasi" class="formRegistrasi">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Form Registrasi</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="napang" class="form-label">Nama Panggilan</label>
+                <input type="text" class="form-control" id="napang" aria-describedby="napang" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="notelp" class="form-label">Nomor Telepon</label>
+                <input type="notelp" class="form-control" id="notelp" aria-describedby="notelp" required />
+              </div>
+              <div class="mb-3">
+                <label for="jeniskelamin" class="form-label">Jenis Kelamin</label>
+                <select class="form-select" id="jeniskelamin" aria-label="jeniskelamin" required>
+                  <option selected>~ Pilih ~</option>
+                  <option value="1">Laki-Laki</option>
+                  <option value="2">Perempuan</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="kota" class="form-label">Kota / Alamat Lengkap</label>
+                <input type="kota" class="form-control" id="kota" aria-describedby="kota" required />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Alasan Bergabung</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="setuju" name="setuju" required />
+                <label class="form-check-label" for="setuju">Saya siap bergabung dengan relawan kemandirian</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Form Registrasi -->
+
+    <!-- Footer -->
+    <footer class="bg-warning text-center">
+      <p>Create by Reza Ichsani</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
